@@ -1,2 +1,90 @@
+/*CSS Colors: #FF4700, #091159, #0021A5, #31720B, #4F8032*/
 /*Imported Fonts from Google Fonts*/
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body{
+    overflow: auto;
+    margin: 0 auto;
+    height: 100%;
+    padding-left: 3%; padding-right: 3%;
+
+}
+
+/*HEADER STYLING*/
+
+header{
+    margin: 0 auto;
+    overflow: auto;
+}
+
+header img{
+    float: left;
+    position: relative;
+}
+
+header p{
+    font-family: 'Lobster', cursive;
+    font-size: 24pt;
+    letter-spacing: 0.15em;
+    color: #31720B;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+/*NAVIGATION STYLING*/
+
+nav{
+    clear: left;
+    text-align: center;
+    font-size: 24pt;
+    background-color: purple;
+    color: #FFFFFF;
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a:link, a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: #0021A5;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+/*ABOUT PAGE STYLING*/
+
+#about_me{
+    line-height: 1.25;
+}
+
+#about_me img{
+    width: 25%;
+    height: 25%;
+    float: left;
+    padding-right: 20px;
+}
+
+#about_me p{
+    color: #31720B;
+    font-size: 16pt;
+
+}
+
+
+/*FOOTER STYLING*/
+
+footer{
+    text-align: center;
+    clear: both;
+    color: #4F8032;
+    opacity: .5;
+    padding: 10px;
+}
