@@ -1,5 +1,6 @@
 /*CSS Colors: #FF4700, #091159, #0021A5, #31720B, #4F8032*/
 /*Imported Fonts from Google Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Playball);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
 body{
@@ -23,9 +24,9 @@ header img{
 }
 
 header p{
-    font-family: 'Lobster', cursive;
-    font-size: 24pt;
-    letter-spacing: 0.15em;
+    font-family: 'Playball', cursive;
+    font-size: 30pt;
+    letter-spacing: 0.01em;
     color: #000;
     text-align: center;
     position: relative;
@@ -40,11 +41,13 @@ nav{
     font-size: 24pt;
     background-color: purple;
     color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.1em;
 }
 
 nav li{
     display: inline-block;
-    padding: 10px;
+    padding: 10px 60px 10px 20px;
 }
 
 nav a:link, a:visited{
@@ -55,7 +58,7 @@ nav a:link, a:visited{
 a:hover, a:active{
     color: #0021A5;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline #000;
 
 }
 
@@ -67,7 +70,6 @@ a:hover, a:active{
 
 #about_me img{
     width: 25%;
-    height: 25%;
     float: left;
     padding-right: 20px;
 }
