@@ -1,4 +1,4 @@
-/*CSS Colors: #FF4700, #091159, #0021A5, #31720B, #4F8032*/
+/*CSS Colors: #EB4C7E, #FFEC94, #FCFFBB, #005459, #163B42*/
 /*Imported Fonts from Google Fonts*/
 @import url(http://fonts.googleapis.com/css?family=Playball);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
@@ -16,6 +16,7 @@ body{
 header{
     margin: 0 auto;
     overflow: auto;
+
 }
 
 header img{
@@ -27,7 +28,7 @@ header p{
     font-family: 'Playball', cursive;
     font-size: 30pt;
     letter-spacing: 0.01em;
-    color: #000;
+    color: #163B42;
     text-align: center;
     position: relative;
     top: 15px;
@@ -39,8 +40,7 @@ nav{
     clear: left;
     text-align: center;
     font-size: 24pt;
-    background-color: purple;
-    color: #FFFFFF;
+    /*background-color: #005459;*/
     font-family: 'Lobster', cursive;
     letter-spacing: 0.1em;
 }
@@ -51,15 +51,18 @@ nav li{
 }
 
 nav a:link, a:visited{
-    color: #FFFFFF;
+    color: #005459;
     text-decoration: none;
 }
 
 a:hover, a:active{
-    color: #0021A5;
+    color: #EB4C7E;
     text-align: center;
-    text-decoration: underline #000;
 
+}
+
+a:hover{
+    text-decoration: underline #EB4C7E;
 }
 
 /*ABOUT PAGE STYLING*/
@@ -75,18 +78,20 @@ a:hover, a:active{
 }
 
 #about_me p{
-    color: #000;
+    color: #163B42;
     font-size: 16pt;
 
 }
 
+img{
+    width: 25%;
+}
 
 /*FOOTER STYLING*/
 
 footer{
     text-align: center;
     clear: both;
-    color: #4F8032;
-    opacity: .5;
+    color: #005459;
     padding: 10px;
 }
