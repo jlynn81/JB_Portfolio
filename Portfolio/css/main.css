@@ -40,7 +40,6 @@ nav{
     clear: left;
     text-align: center;
     font-size: 24pt;
-    /*background-color: #005459;*/
     font-family: 'Lobster', cursive;
     letter-spacing: 0.1em;
 }
@@ -83,8 +82,25 @@ a:hover{
 
 }
 
-img{
+#contact_info{
+    text-align: center;
+}
+
+#contact_info img{
     width: 25%;
+    border-radius: 3em;
+}
+
+#contact_info ul{
+    float: right;
+    position: relative;
+    left: -200px;
+
+}
+
+#contact_info li{
+    text-align: left;
+    text-decoration: none;
 }
 
 /*FOOTER STYLING*/
