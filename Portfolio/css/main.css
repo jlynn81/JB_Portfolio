@@ -1,37 +1,38 @@
-/*CSS Colors: #EB4C7E, #FFEC94, #FCFFBB, #005459, #163B42*/
+/*CSS Colors: #0B3635, #376D70, #6C9094, #C2DADB, #FFFDF2*/
 /*Imported Fonts from Google Fonts*/
 @import url(http://fonts.googleapis.com/css?family=Playball);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
 body{
-    overflow: auto;
     margin: 0 auto;
-    height: 100%;
-    padding-left: 3%; padding-right: 3%;
+    height: auto;
+    z-index: -999;
 
 }
 
 /*HEADER STYLING*/
 
 header{
-    margin: 0 auto;
-    overflow: auto;
-
+    background: url(images/tree_leaves.png) no-repeat scroll right #ADD5F7;
+    position: relative; top: -3.75em;
 }
 
 header img{
     float: left;
+    padding-right: 2em;
     position: relative;
+    top: 1em;
+
 }
 
 header p{
     font-family: 'Playball', cursive;
     font-size: 30pt;
     letter-spacing: 0.01em;
-    color: #163B42;
+    color: #FFFFFF;
     text-align: center;
     position: relative;
-    top: 15px;
+    top: 1em;
 }
 
 /*NAVIGATION STYLING*/
@@ -42,7 +43,12 @@ nav{
     font-size: 24pt;
     font-family: 'Lobster', cursive;
     letter-spacing: 0.1em;
+    background-color: #022601;
+    position: relative;
+    top: 1.88em;
 }
+
+nav ul{}
 
 nav li{
     display: inline-block;
@@ -50,64 +56,87 @@ nav li{
 }
 
 nav a:link, a:visited{
-    color: #005459;
+    color: #034001;
     text-decoration: none;
 }
 
 a:hover, a:active{
-    color: #EB4C7E;
+    color: #81A632;
     text-align: center;
-
+    text-decoration: underline;
 }
 
-a:hover{
-    text-decoration: underline #EB4C7E;
+a:active{
+    text-decoration: underline;
+    text-decoration-color: #FFFDF2;
+}
+
+/*Home Page Styling*/
+#home, #projects, #about_me, #contact_info{
+
+    padding: 3%;
+    position: relative;
+    top: 1.76em;
 }
 
 /*ABOUT PAGE STYLING*/
 
 #about_me{
     line-height: 1.25;
+    padding-bottom: 5%;
 }
 
 #about_me img{
-    width: 25%;
+    width: 15%;
     float: left;
     padding-right: 20px;
 }
 
 #about_me p{
-    color: #163B42;
-    font-size: 16pt;
+    color: #000;
+    font-size: 14pt;
 
 }
 
+/*Projects Information Page*/
+#designs, #development{
+    border-width: 1em;
+    float: left;
+    box-shadow: 1px 1px 1px 1px #ccadad;
+    display: inline;
+    text-align: center;
+    height: 200px;
+    width: 240px;
+    margin-bottom: 3em;
+    margin-right: 1em;
+}
+
+
+/*Contact Information Page*/
 #contact_info{
     text-align: center;
 }
 
 #contact_info img{
     width: 25%;
-    border-radius: 3em;
+    border-radius: 100%;
 }
 
 #contact_info ul{
-    float: right;
-    position: relative;
-    left: -200px;
-
+   list-style-type: none;
+   text-align: left;
 }
 
-#contact_info li{
-    text-align: left;
-    text-decoration: none;
-}
+
 
 /*FOOTER STYLING*/
 
 footer{
     text-align: center;
     clear: both;
-    color: #005459;
+    color: #CCCCCC;
     padding: 10px;
+    background-color: #956868;
+    margin-top: 10px;
+
 }
