@@ -7,19 +7,22 @@ body{
     margin: 0 auto;
     height: auto;
     z-index: -999;
+    width: 80%;
+    padding-top: 2em;
+    background-image: url(images/skies.jpg);
+
 
 }
 
 /*HEADER STYLING*/
 
 header{
-    background: url(images/tree_leaves.png) no-repeat scroll right #ADD5F7;
+    /*background: url(images/tree_leaves.png) no-repeat scroll right #ADD5F7;*/
     position: relative; top: -3.75em;
 }
 
 header img{
     float: left;
-    padding-right: 2em;
     position: relative;
     top: 1em;
 
@@ -29,7 +32,7 @@ header p{
     font-family: 'Playball', cursive;
     font-size: 30pt;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #022601;
     text-align: center;
     position: relative;
     top: 1em;
@@ -38,14 +41,13 @@ header p{
 /*NAVIGATION STYLING*/
 
 nav{
-    clear: left;
+    /*clear: left;*/
     text-align: center;
-    font-size: 24pt;
+    font-size: 14pt;
     font-family: 'Lobster', cursive;
     letter-spacing: 0.1em;
-    background-color: #022601;
     position: relative;
-    top: 1.88em;
+    top: 3.5em;
 }
 
 nav ul{}
@@ -63,7 +65,6 @@ nav a:link, a:visited{
 a:hover, a:active{
     color: #81A632;
     text-align: center;
-    text-decoration: underline;
 }
 
 a:active{
@@ -72,7 +73,7 @@ a:active{
 }
 
 /*Home Page Styling*/
-#home, #projects, #about_me, #contact_info{
+#home, #projects, #contact_info{
 
     padding: 3%;
     position: relative;
@@ -83,23 +84,25 @@ a:active{
 
 #about_me{
     line-height: 1.25;
-    padding-bottom: 5%;
+    background-color: #F2F2F2;
+    clear: both;
+    padding: 1em;
 }
 
 #about_me img{
-    width: 15%;
+    width: 25%;
     float: left;
-    padding-right: 20px;
+    padding: 1em 1em 0;
 }
 
 #about_me p{
     color: #000;
-    font-size: 14pt;
-
+    font-size: 12pt;
+    padding-left: 1em;
 }
 
 /*Projects Information Page*/
-#designs, #development{
+#designs, #development, #javascript{
     border-width: 1em;
     float: left;
     box-shadow: 1px 1px 1px 1px #ccadad;
@@ -135,8 +138,8 @@ footer{
     text-align: center;
     clear: both;
     color: #CCCCCC;
-    padding: 10px;
-    background-color: #956868;
-    margin-top: 10px;
+    padding: 0.75em;
+    background-color: #022601;
+    font-size: 10pt;
 
 }
