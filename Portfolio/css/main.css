@@ -1,4 +1,4 @@
-/*CSS Colors: #0B3635, #376D70, #6C9094, #C2DADB, #FFFDF2*/
+/*CSS Colors: #F2F2F2, #034001, #022601, #81A632, #9ABF11*/
 /*Imported Fonts from Google Fonts*/
 @import url(http://fonts.googleapis.com/css?family=Playball);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
@@ -42,19 +42,20 @@ header p{
 
 nav{
     /*clear: left;*/
-    text-align: center;
+    text-align: right;
     font-size: 14pt;
     font-family: 'Lobster', cursive;
     letter-spacing: 0.1em;
     position: relative;
     top: 3.5em;
+    right: -1.65em;
 }
 
 nav ul{}
 
 nav li{
     display: inline-block;
-    padding: 10px 60px 10px 20px;
+    padding: 10px 30px 10px 20px;
 }
 
 nav a:link, a:visited{
@@ -87,6 +88,7 @@ a:active{
     background-color: #F2F2F2;
     clear: both;
     padding: 1em;
+    margin-bottom: 2em;
 }
 
 #about_me img{
