@@ -1,7 +1,7 @@
 /*CSS Colors: #F2F2F2, #034001, #022601, #81A632, #9ABF11*/
 /*Imported Fonts from Google Fonts*/
 @import url(http://fonts.googleapis.com/css?family=Playball);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Merienda);
 
 body{
     margin: 0 auto;
@@ -10,7 +10,6 @@ body{
     width: 80%;
     padding-top: 2em;
     background-image: url(images/skies.jpg);
-
 
 }
 
@@ -28,34 +27,24 @@ header img{
 
 }
 
-header p{
-    font-family: 'Playball', cursive;
-    font-size: 30pt;
-    letter-spacing: 0.01em;
-    color: #022601;
-    text-align: center;
-    position: relative;
-    top: 1em;
-}
 
 /*NAVIGATION STYLING*/
 
 nav{
-    /*clear: left;*/
     text-align: right;
-    font-size: 14pt;
-    font-family: 'Lobster', cursive;
+    font-size: 10pt;
+    font-family: 'Merienda', cursive;
     letter-spacing: 0.1em;
     position: relative;
     top: 3.5em;
-    right: -1.65em;
+    float: right;
 }
 
 nav ul{}
 
 nav li{
     display: inline-block;
-    padding: 10px 30px 10px 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 nav a:link, a:visited{
@@ -81,13 +70,25 @@ a:active{
     top: 1.76em;
 }
 
+#home h1{
+    font-family: 'Merienda', cursive;
+    font-size: 26pt;
+    letter-spacing: 0.01em;
+    color: #022601;
+    clear: both;
+    border-style: none none double;
+    border-width: 5px;
+    text-align: center;
+
+}
+
 /*ABOUT PAGE STYLING*/
 
 #about_me{
     line-height: 1.25;
     background-color: #F2F2F2;
     clear: both;
-    padding: 1em;
+    padding: 1em 3.45em 1em 1em;
     margin-bottom: 2em;
 }
 
