@@ -9,14 +9,13 @@ body{
     z-index: -999;
     width: 80%;
     padding-top: 2em;
-    background-image: url(images/skies.jpg);
+    /*background-image: url(images/skies.jpg);*/
 
 }
 
 /*HEADER STYLING*/
 
 header{
-    /*background: url(images/tree_leaves.png) no-repeat scroll right #ADD5F7;*/
     position: relative; top: -3.75em;
 }
 
@@ -70,7 +69,7 @@ a:active{
     top: 1.76em;
 }
 
-#home h1{
+#top h1{
     font-family: 'Merienda', cursive;
     font-size: 26pt;
     letter-spacing: 0.01em;
@@ -79,8 +78,34 @@ a:active{
     border-style: none none double;
     border-width: 5px;
     text-align: center;
-
+    padding-bottom: 0.5em;
 }
+
+#top p{
+    font-family: 'Merienda', cursive;
+    font-size: 14pt;
+    letter-spacing: 0.01em;
+    position: relative;
+    text-align: center;
+    top: -0.5em;
+}
+
+#middle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#middle ul{
+    text-align: center;
+}
+
+#middle li{
+    text-decoration: none;
+    display: block;
+    padding-bottom: 10px;
+}
+
+
 
 /*ABOUT PAGE STYLING*/
 
@@ -126,6 +151,9 @@ a:active{
 #contact_info img{
     width: 25%;
     border-radius: 100%;
+    position: relative;
+    left: -100px;
+
 }
 
 #contact_info ul{
