@@ -1,4 +1,4 @@
-/*CSS Colors: #F2F2F2, #034001, #022601, #81A632, #9ABF11*/
+/*CSS Colors: #F2F2F2, #5FBDF5, #C4EAFF, #000566, #39B348*/
 /*Imported Fonts from Google Fonts*/
 @import url(http://fonts.googleapis.com/css?family=Playball);
 @import url(http://fonts.googleapis.com/css?family=Merienda);
@@ -10,38 +10,29 @@ body{
     width: 80%;
     padding-top: 2em;
     background-image: url(images/Water01.JPG);
-    background-size: 110%;
-
-
+    /*background-size: 110%;*/
 }
 
 /*HEADER STYLING*/
 
 header{
-    position: relative; top: -3.75em;
+    position: relative; top: -3em;
 }
 
 header img{
     float: left;
-    position: relative;
-    top: 1em;
-
+    position: relative; top: 1em;
 }
 
 
 /*NAVIGATION STYLING*/
 
 nav{
-    text-align: right;
-    font-size: 10pt;
-    font-family: 'Merienda', cursive;
+    font-size: 10pt; font-family: 'Merienda', cursive;
     letter-spacing: 0.1em;
-    position: relative;
-    top: 3.5em;
+    position: relative; top: 4em;
     float: right;
 }
-
-nav ul{}
 
 nav li{
     display: inline-block;
@@ -54,29 +45,24 @@ nav a:link, a:visited{
 }
 
 a:hover, a:active{
-    color: #9ABF11;
+    color: #5FBDF5;
     text-align: center;
 }
 
-a:active{
-    text-decoration: underline;
-    text-decoration-color: #FFFDF2;
-}
 
 /*Home Page Styling*/
 #main, #projects, #contact_info{
-    position: relative;
-    top: 1.76em;
+    position: relative; top: 1.76em;
     padding-bottom: 2em;
+    clear: both;
 }
 
 #main h1, #projects h1{
-    font-family: 'Merienda', cursive;
-    font-size: 26pt;
-    color: #022601;
-    clear: both;
+    font-family: 'Merienda', cursive; font-size: 26pt;
+    color: #5FBDF5;
     border-style: none none double;
     border-width: 5px;
+    border-color: #000566;
     text-align: center;
     padding-bottom: 0.5em;
     position: relative;
@@ -86,6 +72,7 @@ a:active{
 #main p, #projects p{
     font-family: 'Merienda', cursive;
     font-size: 14pt;
+    color: #5FBDF5;
     letter-spacing: 0.01em;
     position: relative;
     text-align: center;
@@ -94,10 +81,11 @@ a:active{
 
 #main ul{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding: 2em;
     background-color: #F2F2F2;
     opacity: .9;
+    border-radius: 0.5em;
+    color: #000566;
 }
 
 #main li{
@@ -117,6 +105,7 @@ a:active{
     padding: 1em 3.45em 1em 1em;
     margin-bottom: 2em;
     border-radius: 0.5em;
+
 }
 
 #about_me img{
@@ -154,8 +143,6 @@ a:active{
 #contact_info img{
     width: 25%;
     border-radius: 100%;
-    position: relative;
-    left: -100px;
 
 }
 
