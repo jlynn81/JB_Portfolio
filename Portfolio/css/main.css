@@ -123,7 +123,7 @@ a:hover, a:active{
 
 /*Projects Information Page*/
 
-#designs, #development, #javascript, #wires{
+#designs, #flash, #javascript, #wires{
     border-width: 1em;
     float: left;
     box-shadow: 1px 1px 1px 1px #ccadad;
