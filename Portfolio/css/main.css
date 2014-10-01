@@ -5,13 +5,25 @@
 
 body{
     margin: 0 auto;
-    z-index: -999;
     padding: 2em;
-    background-image: url(images/Water01.JPG);
-    background-size: 1024px auto;
+    height: auto;
 
-    /*background-size: 110%;*/
 }
+
+#full-screen-background-image {
+    z-index: -999;
+    min-height: 100%;
+    min-width: 59.375%; /*475px*/
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    background-color: #000;
+
+}
+
 
 /*HEADER STYLING*/
 
@@ -40,12 +52,12 @@ nav li{
 }
 
 nav a:link, a:visited{
-    color: #F2F2F2;
+    color: #000566;
     text-decoration: none;
 }
 
 a:hover, a:active{
-    color: #5FBDF5;
+    color: #39B348;
     text-align: center;
 }
 
@@ -60,10 +72,10 @@ a:hover, a:active{
 /*HOME, PROJECTS AND CONTACT INFORMATION - MAIN STYLING*/
 #main h1, #projects h1, #contact_info h1, #about_me h1{
     font-family: 'Merienda', cursive; font-size: 26pt;
-    color: #5FBDF5;
+    color: #000566;
     border-style: none none double;
     border-width: 5px;
-    border-color: #000566;
+    border-color: #5FBDF5;
     text-align: center;
     padding-bottom: 0.5em;
     position: relative;
@@ -81,12 +93,14 @@ a:hover, a:active{
 }
 
 #main ul{
-    text-align: center;
+    text-align: left;
     padding: 2em;
     background-color: #F2F2F2;
     opacity: .9;
     border-radius: 0.5em;
     color: #000566;
+    font-family: 'Merienda', cursive;
+
 }
 
 #main li{
@@ -145,7 +159,7 @@ a:hover, a:active{
 #contact_info p{
     font-family: 'Merienda', cursive;
     font-size: 14pt;
-    color: #5FBDF5;
+    color: #000566;
 
 }
 
@@ -157,11 +171,15 @@ a:hover, a:active{
 /*FOOTER STYLING*/
 
 footer{
-    text-align: center;
+    background-color: #022601;
     clear: both;
     color: #CCCCCC;
-    padding: 0.75em;
-    background-color: #022601;
     font-size: 10pt;
+    margin-top: 90px;
     opacity: 0.75;
+    padding: 0.75em;
+    text-align: center;
+
+
+
 }
