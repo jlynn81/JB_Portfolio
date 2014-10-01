@@ -85,7 +85,7 @@ a:hover, a:active{
 #main p, #projects p{
     font-family: 'Merienda', cursive;
     font-size: 14pt;
-    color: #5FBDF5;
+    color: #000566;
     letter-spacing: 0.01em;
     position: relative;
     text-align: center;
@@ -123,8 +123,9 @@ a:hover, a:active{
 }
 
 #about_me p{
-    color: #000;
+    color: #000566;
     font-size: 12pt;
+    font-family: 'Merienda', cursive;
     padding: 1em;
     background-color: #F2F2F2;
     border-radius: 0.5em;
@@ -164,8 +165,10 @@ a:hover, a:active{
 }
 
 #contact_info ul{
-   list-style-type: none;
-   font-family: 'Merienda', cursive;
+    list-style-type: none;
+    font-family: 'Merienda', cursive;
+    color: #000566;
+   
 }
 
 /*FOOTER STYLING*/
