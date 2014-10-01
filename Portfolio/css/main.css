@@ -5,11 +5,10 @@
 
 body{
     margin: 0 auto;
-    height: auto;
     z-index: -999;
-    width: 80%;
-    padding-top: 2em;
+    padding: 2em;
     background-image: url(images/Water01.JPG);
+    background-size: 1024px auto;
 
     /*background-size: 110%;*/
 }
