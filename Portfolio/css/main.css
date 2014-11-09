@@ -151,24 +151,32 @@ a:hover, a:active{
 
 
 /*Contact Information Page*/
-#contact_info img{
-    width: 25%;
-    border-radius: 100%;
-    float: right;
+#contact_info{
+    padding-bottom: 2em;
+    margin: 0 auto;
 }
 
-#contact_info p{
-    font-family: 'Merienda', cursive;
-    font-size: 14pt;
-    color: #000566;
-
+#contact_info img{
+    width: 30%;
+    border-radius: 100%;
+    float: left;
+    padding: 1em 1em 0;
+    background-color: #F2F2F2;
+    border-top-left-radius: 0.5em 100%;
 }
 
 #contact_info ul{
     list-style-type: none;
     font-family: 'Merienda', cursive;
+    font-size: 14pt;
     color: #000566;
-   
+    padding-left: 20em;
+    width: 400px;
+
+}
+
+#contact_info ul li{
+    padding-bottom: .5em;
 }
 
 /*FOOTER STYLING*/
